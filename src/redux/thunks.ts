@@ -4,8 +4,8 @@ import { fetchFlightsStart, fetchFlightsSuccess, fetchFlightsFailure, Flight } f
 import { FilterState } from './slices/filterSlice.ts';
 
 const API_HEADERS = {
-    "X-RapidAPI-Key": process.env.REACT_APP_KEY || '',
-    "X-RapidAPI-Host": process.env.REACT_APP_HOST || ''
+    "X-RapidAPI-Key": process.env.REACT_APP_API_KEY || '',
+    "X-RapidAPI-Host": process.env.REACT_APP_API_HOST || ''
 };
 
 const API_URLS = {
